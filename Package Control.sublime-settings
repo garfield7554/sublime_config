@@ -1,0 +1,7 @@
+{
+	"http_proxy": "http://rapps:ezs213##07@mqde01proxy01.marquardt.de:3128",
+	"installed_packages":
+	[
+		"Cscope"
+	]
+}

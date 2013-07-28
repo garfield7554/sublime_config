@@ -1,9 +1,20 @@
 {
+	"CscopeSublime_prompt_before_searching": false,
 	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
 	"font_size": 9.0,
 	"ignored_packages":
 	[
 	],
+	"ignored_words":
+	[
+		"edit/confirm",
+		"insert/delete",
+		"tabstop"
+	],
+	"spell_check": false,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"use_tab_stops": true,
 	"vintage_ctrl_keys": false,
 	"vintage_start_in_command_mode": true,
 	"vintage_use_clipboard": true

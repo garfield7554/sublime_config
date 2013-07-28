@@ -1,2 +1,74 @@
 [
+  { "keys": ["g", "t"], "command": "next_view" },
+  { "keys": ["g", "T"], "command": "prev_view" },
+  { "keys": ["n"], "command": "find_next" },
+  { "keys": ["N"], "command": "find_prev" },
+  { "keys": ["ß", "t"], "command": "test" },
+
+  // CSCOPE Keybindings
+  {
+    "keys": ["ß", "ß"],
+    "command": "show_overlay",
+    "args":
+    {
+        "overlay": "command_palette",
+        "text": "Cscope: "
+    }
+  },
+  {
+    // Build Database
+    "keys": ["ß", "b"],
+    "command": "cscope_build_database"
+  },
+  {
+    // Lookup symbol
+    "keys": ["ß", "s"],
+    "command": "cscope",
+    "args":
+    {
+        "mode": 0
+    }
+
+  },
+  {
+    // Lookup definition
+    "keys": ["ß", "d"],
+    "command": "cscope",
+    "args":
+    {
+        "mode": 1
+    }
+  },
+  {
+    // Lookup CalleEs
+    "keys": ["ß", "e"],
+    "command": "cscope",
+    "args":
+    {
+        "mode": 2
+    }
+  },
+  {
+    // Lookup CalleRs
+    "keys": ["ß", "r"],
+    "command": "cscope",
+    "args":
+    {
+        "mode": 3
+    }
+  },
+  {
+    // Navigate to results with enter key
+    "keys": ["enter"],
+    "command": "cscope_visiter",
+    "context": [{"key": "selector", "operand": "text.find-in-files"}]
+  },
+  {
+    "keys": ["ctrl+shift+["],
+    "command": "goback"
+  },
+  {
+    "keys": ["ctrl+shift+]"],
+    "command": "forward"
+  }
 ]

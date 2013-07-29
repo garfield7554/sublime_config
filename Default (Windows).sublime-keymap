@@ -1,9 +1,10 @@
 [
   { "keys": ["g", "t"], "command": "next_view" },
   { "keys": ["g", "T"], "command": "prev_view" },
-  { "keys": ["n"], "command": "find_next" },
-  { "keys": ["N"], "command": "find_prev" },
-  { "keys": ["ß", "t"], "command": "test" },
+  // { "keys": ["n"], "command": "find_next" },
+  // { "keys": ["N"], "command": "find_prev" },
+  { "keys": ["t", "t"], "command": "test1" },
+  { "keys": ["ctrl+ö"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
 
   // CSCOPE Keybindings
   {
@@ -50,7 +51,7 @@
   },
   {
     // Lookup CalleRs
-    "keys": ["ß", "r"],
+    "keys": ["ß", "c"],
     "command": "cscope",
     "args":
     {
@@ -64,11 +65,12 @@
     "context": [{"key": "selector", "operand": "text.find-in-files"}]
   },
   {
-    "keys": ["ctrl+shift+["],
+    "keys": ["ctrl+shift+8"],
     "command": "goback"
   },
   {
-    "keys": ["ctrl+shift+]"],
+    "keys": ["ctrl+shift+9"],
     "command": "forward"
   }
+
 ]

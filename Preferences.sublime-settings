@@ -1,0 +1,19 @@
+{
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"vintageous_autoindent": true,
+	"vintageous_enable_cmdline_mode": true,
+	"vintageous_hlsearch": true,
+	"vintageous_incsearch": true,
+	"vintageous_reset_mode_when_switching_tabs": true,
+	"vintageous_search_mode": "smart_case",
+	"vintageous_use_ctrl_keys": false,
+	"vintageous_verbose": false,
+	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
+    "font_size": 9.0,
+    "vintage_ctrl_keys": false,
+    "vintage_start_in_command_mode": true,
+    "vintage_use_clipboard": true
+}
